@@ -64,7 +64,8 @@ fun Halaman(modifier: Modifier = Modifier) {
         fontStyle = FontStyle.Italic)
     Spacer(modifier = Modifier.padding(10.dp))
     Image(
-        painter = painterResource(id = R.drawable.)
+        painter = painterResource(id = R.drawable.logo),
+
     )
     }
 }
