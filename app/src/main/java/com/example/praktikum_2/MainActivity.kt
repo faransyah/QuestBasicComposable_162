@@ -20,6 +20,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
@@ -97,7 +98,10 @@ fun Halaman(modifier: Modifier = Modifier) {
     Spacer(modifier = Modifier.padding(12.dp))
     Image(
         painter = painterResource(id = R.drawable.faransyah),
-        contentDescription = "foto"
+        contentDescription = "foto",
+        modifier = Modifier
+            .clip(RectangleShape)
+            .size(300.dp)
     )
 
 
