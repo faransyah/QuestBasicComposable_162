@@ -95,7 +95,9 @@ fun Halaman(modifier: Modifier = Modifier) {
         fontWeight = FontWeight.Bold
     )
     Spacer(modifier = Modifier.padding(12.dp))
-
+    Image(
+        painter = painterResource(id = R.drawable.faransyah),
+    )
 
 
 
