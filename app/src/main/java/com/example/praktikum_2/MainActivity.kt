@@ -87,6 +87,13 @@ fun Halaman(modifier: Modifier = Modifier) {
         fontStyle = FontStyle.Italic,
         color = Color.Red
     )
+    Spacer(modifier = Modifier.padding(5.dp))
+    Text(
+        "20220140162",
+        fontSize = 20.sp,
+        fontStyle = FontStyle.Italic,
+        fontWeight = FontWeight.Bold
+    )
 
 
 
