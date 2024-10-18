@@ -74,6 +74,13 @@ fun Halaman(modifier: Modifier = Modifier) {
             .size(250.dp)
 
     )
+    Spacer(modifier = Modifier.padding(10.dp))
+    Text(
+        "Nama :",
+        fontSize = 20.sp,
+        fontStyle = FontStyle.Italic
+    )
+
 
     }
 }
