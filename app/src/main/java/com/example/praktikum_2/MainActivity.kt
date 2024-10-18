@@ -80,6 +80,14 @@ fun Halaman(modifier: Modifier = Modifier) {
         fontSize = 20.sp,
         fontStyle = FontStyle.Italic
     )
+    Spacer(modifier = Modifier.padding(5.dp))
+    Text(
+        "Muhammad Faransyah Hamizan",
+        fontSize = 20.sp,
+        fontStyle = FontStyle.Italic,
+        color = Color.Red
+    )
+
 
 
     }
