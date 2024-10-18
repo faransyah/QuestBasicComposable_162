@@ -97,6 +97,7 @@ fun Halaman(modifier: Modifier = Modifier) {
     Spacer(modifier = Modifier.padding(12.dp))
     Image(
         painter = painterResource(id = R.drawable.faransyah),
+        contentDescription = "foto"
     )
 
 
