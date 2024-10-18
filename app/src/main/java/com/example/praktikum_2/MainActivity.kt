@@ -94,6 +94,8 @@ fun Halaman(modifier: Modifier = Modifier) {
         fontStyle = FontStyle.Italic,
         fontWeight = FontWeight.Bold
     )
+    Spacer(modifier = Modifier.padding(12.dp))
+
 
 
 
