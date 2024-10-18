@@ -37,12 +37,14 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Halaman(modifier: Modifier = Modifier){
-    Column(horizontalAlignment = Alignment.CenterHorizontally,
+fun Halaman(modifier: Modifier = Modifier) {
+    Column(
+        horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Top,
         modifier = Modifier
             .fillMaxSize()
-            .background(Color.Gray))
+            .background(Color.Gray)
+    )
 
 
 {
@@ -52,6 +54,7 @@ fun Halaman(modifier: Modifier = Modifier){
         "Login", fontSize = 50.sp,
         fontWeight = FontWeight.Bold)
     )
+    }
 }
 
 @Composable
@@ -66,6 +69,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     Praktikum_2Theme {
-        Greeting("Android")
+        Halaman()
     }
 }
